@@ -3,12 +3,24 @@ body {
     /* background-image: url("img/1.svg"); */
     object-position: center;
     min-width: 100%;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     display: flex;
     justify-content: center;
     align-items: center;
+    /* overflow: hidden; */
 }
 
+.images {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 2000px;
+}
+
+.images img {
+    width: 100%;
+}
+/* 
 .hero {
     position: relative;
     display: flex;
@@ -16,16 +28,16 @@ body {
     align-items: center;
     min-height: 100vh;
     min-width: 100vw;
-}
+} */
 
 .hero img {
     /* position: absolute;
     top: 0%;
     left: 50%; */
     /* transform: translate(-50%, -0%); */
-    width: 100%;
+    /* width: 100%;
     min-height: 100vh;
-    object-position: center;
+    object-position: center; */
 }
 
 @media only screen and (max-width: 768px) {
